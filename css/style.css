@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6ed100;
+    --primary: #3AA6B9;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -27,14 +27,14 @@
 }
 .btn-primary {
     color: #000 !important;
-    background-color: #6ed100;
-    border-color: #6ed100;
+    background-color: #3AA6B9;
+    border-color: #3AA6B9;
 }
 .text-primary{
-    color: #6ed100 !important;
+    color: #3AA6B9 !important;
 }
 .bg-primary {
-    background-color: #6ed100 !important;
+    background-color: #3AA6B9 !important;
 }
 .bg-light {
     background-color: #f1f1f1 !important;
