@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-  --primary: #3aa6b9;
+  --primary: #c6a236;
   --secondary: #34ad54;
   --light: #eef9ff;
   --dark: #091e3e;
@@ -28,14 +28,14 @@
 }
 .btn-primary {
   color: #000 !important;
-  background-color: #3aa6b9;
-  border-color: #3aa6b9;
+  background-color: #c6a236;
+  border-color: #c6a236;
 }
 .text-primary {
-  color: #3aa6b9 !important;
+  color: #c6a236 !important;
 }
 .bg-primary {
-  background-color: #3aa6b9 !important;
+  background-color: #c6a236 !important;
 }
 .bg-light {
   background-color: #f1f1f1 !important;
@@ -146,7 +146,7 @@ h6,
   text-align: center;
 }
 .btn.msg {
-  background: #3aa6b9;
+  background: #c6a236;
   color: white !important;
 }
 
@@ -324,7 +324,7 @@ h6,
 .section-para p {
   font-size: 20px;
   margin-top: 40px;
-  color: #3aa6b9;
+  color: #c6a236;
 }
 @-webkit-keyframes section-title-run {
   0% {
