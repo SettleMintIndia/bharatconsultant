@@ -8,6 +8,11 @@
 a.navbar-brand img {
   max-width: 200px;
 }
+.bg-mission {
+  background: #eee;
+  padding: 30px;
+  border-radius: 10px;
+}
 /*** Spinner ***/
 .spinner {
   width: 40px;
@@ -132,11 +137,12 @@ h6,
   box-sizing: border-box;
 }
 h5.text-uppercase.mb-3.animated.slideInDown {
-  background: rgba(256,256,256,.6);
   display: inline-block;
   padding: 10px;
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 .btn-square {
   width: 36px;
@@ -218,10 +224,10 @@ footer {
 }
 .model button {
   float: right;
-  border: #ccc 1px solid;
+  border: none;
   height: 35px;
   padding: 7px 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-weight: 400;
   font-size: 22px;
   width: 35px;
@@ -231,6 +237,7 @@ footer {
   top: -20px;
   background: #00b57f;
   color: #fff;
+  cursor: pointer;
 }
 
 
@@ -298,7 +305,7 @@ footer {
 
 /*** Carousel ***/
 .carousel-caption {
-  top: 0;
+  top: -80px;
   left: 0;
   right: 0;
   bottom: 0;
