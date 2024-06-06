@@ -131,6 +131,13 @@ h6,
   padding: 30px;
   box-sizing: border-box;
 }
+h5.text-uppercase.mb-3.animated.slideInDown {
+  background: rgba(256,256,256,.6);
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 28px;
+}
 .btn-square {
   width: 36px;
   height: 36px;
