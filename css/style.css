@@ -124,14 +124,25 @@ h6,
 .btn-secondary:hover {
   box-shadow: inset 0 0 0 0 var(--secondary);
 }
-
+.tesimonialbg {
+  width: 100%;
+  float: left;
+  background: #f1f1f1;
+  padding: 30px;
+  box-sizing: border-box;
+}
 .btn-square {
   width: 36px;
   height: 36px;
 }
+footer {
+  width: 100%;
+  float: left;
+}
 .tesimonialbox {
   padding: 30px;
   height: 320px;
+  background: #fff;
 }
 .btn-sm-square {
   width: 30px;
@@ -595,7 +606,9 @@ h6,
     url(../img/bg-header-recruitment.png) center center no-repeat;
   background-size: cover;
 }
-
+p {
+  text-align: justify;
+}
 .bg-header-tax {
   background: 
     url(../img/bg-header-tax.png) center center no-repeat;
