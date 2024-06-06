@@ -596,6 +596,12 @@ footer {
   background-size: cover;
 }
 
+.bg-header-legal {
+  background:
+    url(../img/bg-header-legal.png) center center no-repeat;
+  background-size: cover;
+}
+
 .bg-header-dpr {
   background: 
     url(../img/bg-header-dpr.png) center center no-repeat;
