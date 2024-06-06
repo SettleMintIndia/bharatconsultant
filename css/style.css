@@ -3,7 +3,7 @@
   --primary: #c6a236;
   --secondary: #34ad54;
   --light: #eef9ff;
-  --dark: #091e3e;
+  --dark: #c6a236;
 }
 
 /*** Spinner ***/
@@ -81,6 +81,9 @@
 }
 
 /*** Heading ***/
+h1 {
+  color: #000;
+}
 h1,
 h2,
 .fw-bold {
@@ -145,20 +148,19 @@ h6,
   padding-right: 0;
   text-align: center;
 }
-.btn.msg {
-  background: #c6a236;
-  color: white !important;
-}
 
 /*** Navbar ***/
+.navbar-dark {
+  background: #ffffff;
+}
 .navbar-dark .navbar-nav .nav-link {
   font-family: "Nunito", sans-serif;
   position: relative;
   margin-left: 25px;
   padding: 35px 0;
-  color: #ffffff;
+  color: #000;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   outline: none;
   transition: 0.5s;
 }
@@ -170,7 +172,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -212,9 +214,11 @@ h6,
 
   .sticky-top.navbar-dark {
     position: fixed;
-    background: #ffffff;
+    background: rgba(0, 0, 0, 0.6);
   }
-
+  .sticky-top.navbar-dark a {
+    color: white !important;
+  }
   .navbar-dark .navbar-nav .nav-link::before {
     position: absolute;
     content: "";
@@ -230,6 +234,7 @@ h6,
   .navbar-dark .navbar-nav .nav-link.active::before {
     width: 100%;
     left: 0;
+    height: 3px;
   }
 
   .navbar-dark .navbar-nav .nav-link.nav-contact::before {
@@ -583,4 +588,78 @@ h6,
   .footer-about {
     margin-bottom: -75px;
   }
+}
+
+.footer {
+  background: #1f0505 !important;
+  position: relative;
+}
+.footer-bottom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #ffffff61;
+}
+.form-control,
+.form-select {
+  background: #ffffff00 !important;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  color: #fff !important;
+  opacity: 0.7;
+  appearance: auto;
+}
+.form-control::placeholder {
+  color: #fff !important;
+}
+.form-control:focus {
+  box-shadow: none;
+  color: #fff !important;
+}
+.btn.msg {
+  background: #c6a236;
+  color: white !important;
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.btn-dark.w-100 {
+  background: #fff;
+  color: #000000;
+  border-radius: 5px;
+  border: 0 none;
+}
+.btn-dark.w-100:hover,
+.btn.msg:hover,
+.service-item .btn-primary:hover {
+  background: #000000;
+  border-color: #000000;
+  color: #fff !important;
+}
+.rounded-circle {
+  border: none;
+}
+.rounded-circle:hover,
+.rounded-circle:focus {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.btn-square {
+  background: #ffffff6b;
+  border: none;
+  color: white !important;
+  border-radius: 5px;
+}
+.btn-square:hover {
+  background: #c6a236;
+  color: #fff;
+}
+.service-item .btn-primary:hover {
 }
