@@ -184,6 +184,7 @@ footer {
   outline: none;
   transition: 0.5s;
 }
+.contactwrap{ width: 100%; float: left;}
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
   padding: 20px 0;
@@ -577,7 +578,11 @@ footer {
   bottom: 45px;
   z-index: 99;
 }
-
+.bg-header-ceo {
+  background:
+    url(../img/bg-header-ceo.png) center center no-repeat;
+  background-size: cover;
+}
 .bg-header-accounting {
   background:
     url(../img/bg-header-accounting.png) center center no-repeat;
@@ -607,13 +612,13 @@ footer {
     url(../img/bg-header-licenses.png) center center no-repeat;
   background-size: cover;
 }
-
+.topbar a{ color: #fff;}
 .bg-header-recruitment {
   background: 
     url(../img/bg-header-recruitment.png) center center no-repeat;
   background-size: cover;
 }
-p {
+.ceoMessage p {
   text-align: justify;
 }
 .bg-header-tax {
@@ -661,6 +666,7 @@ p {
   background: #202020 !important;
   position: relative;
 }
+textarea.form-control{ color: #000 !important;}
 .footer-bottom::before {
   content: "";
   position: absolute;
@@ -674,23 +680,23 @@ p {
 }
 .form-control,
 .form-select {
-  background: #ffffff00 !important;
-  border: 1px solid #f1f1f1;
-  border-radius: 5px;
-  color: #fff !important;
-  opacity: 0.7;
-  appearance: auto;
+  background: #fff !important;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #000 !important;
+    opacity: 0.7;
+    appearance: auto;
 }
 .form-control::placeholder {
-  color: #fff !important;
+  color: #000 !important;
 }
 .form-control:focus {
   box-shadow: none;
-  color: #fff !important;
+  color: #000 !important;
 }
 .btn.msg {
   background: #00b57f;
-  color: white !important;
+  color: #000 !important;
   height: 60px;
   width: 250px;
   font-size: 20px;
